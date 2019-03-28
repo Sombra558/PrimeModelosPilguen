@@ -21,7 +21,7 @@ const Body1 =() => (
    <div className="col-md-12">
    <ul className="nav nav-tabs-pilguen row" id="myTab" role="tablist">
   <li className="nav-item col-md-4">
-    <a className="nav-link producto" id="historia-tab" data-toggle="tab" href="#historia" role="tab" aria-controls="historia" aria-selected="false">
+    <a className="nav-link producto active" id="historia-tab" data-toggle="tab" href="#historia" role="tab" aria-controls="historia" aria-selected="false">
      <div><h4 className="text-center">NUESTRA HISTORIA</h4></div>
     </a>
   </li>

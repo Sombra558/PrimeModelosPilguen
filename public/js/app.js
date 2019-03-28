@@ -66920,7 +66920,7 @@ var Body1 = function Body1() {
             { className: "nav-item col-md-4" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               "a",
-              { className: "nav-link producto", id: "historia-tab", "data-toggle": "tab", href: "#historia", role: "tab", "aria-controls": "historia", "aria-selected": "false" },
+              { className: "nav-link producto active", id: "historia-tab", "data-toggle": "tab", href: "#historia", role: "tab", "aria-controls": "historia", "aria-selected": "false" },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
                 null,
@@ -68321,7 +68321,7 @@ var Catalogo = function (_Component) {
                             { className: 'row text-center ' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-                                { className: 'col-md-3 list-group-item-pilguen', to: '/Productos' },
+                                { className: 'col-md-3 list-group-item-pilguen', to: '/Verde' },
                                 'MADERA VERDE DIMENSIONADA'
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -68352,7 +68352,7 @@ var Catalogo = function (_Component) {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["d" /* Switch */],
                             null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Productos', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__Aplicaciones_Verde__["a" /* default */] }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Verde', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__Aplicaciones_Verde__["a" /* default */] }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Seca', exact: true, component: __WEBPACK_IMPORTED_MODULE_4__Aplicaciones_Seca__["a" /* default */] }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Impregnada', exact: true, component: __WEBPACK_IMPORTED_MODULE_5__Aplicaciones_ImpreApi__["a" /* default */] }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Polines', exact: true, component: __WEBPACK_IMPORTED_MODULE_6__Aplicaciones_Pollines__["a" /* default */] }),
@@ -71026,7 +71026,7 @@ var Servicios = function (_Component) {
                             { className: 'row text-center ' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-                                { className: 'col-md-6 list-group-item-pilguen', to: '/Servicios' },
+                                { className: 'col-md-6 list-group-item-pilguen', to: '/Servicios/Impregnado' },
                                 'SERVICIO DE IMPREGNADO'
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -71042,7 +71042,7 @@ var Servicios = function (_Component) {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["d" /* Switch */],
                             null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Servicios', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__Aplicaciones_Impregnado__["a" /* default */] }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Servicios/Impregnado', exact: true, component: __WEBPACK_IMPORTED_MODULE_3__Aplicaciones_Impregnado__["a" /* default */] }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], { path: '/Servicios/Secado', exact: true, component: __WEBPACK_IMPORTED_MODULE_4__Aplicaciones_Secado__["a" /* default */] })
                         )
                     )

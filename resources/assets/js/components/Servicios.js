@@ -16,13 +16,13 @@ export default class Servicios extends Component {
                     <div><h1 className="producto">SERVICIOS</h1></div>
                     <div className="col-md-12">
                             <div className="row text-center ">
-                            <Link className="col-md-6 list-group-item-pilguen" to="/Servicios">SERVICIO DE IMPREGNADO</Link> 
+                            <Link className="col-md-6 list-group-item-pilguen" to="/Servicios/Impregnado">SERVICIO DE IMPREGNADO</Link> 
                             <Link className="col-md-6 list-group-item-pilguen" to="/Servicios/Secado">SERVICIO DE SECADO</Link>
                             </div>
                     </div>
                     <div className="col-md-12">
                     <Switch>
-                           <Route path='/Servicios' exact component={ImpregnadoApi}></Route>
+                           <Route path='/Servicios/Impregnado' exact component={ImpregnadoApi}></Route>
                            <Route path='/Servicios/Secado' exact component={SecadoApi}></Route>
                     </Switch> 
                     </div>      

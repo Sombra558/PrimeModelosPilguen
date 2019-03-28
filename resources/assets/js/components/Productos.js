@@ -20,21 +20,21 @@ export default class Catalogo extends Component {
                     <div className="col-md-12">
                             <div className="row text-center border categoria">
                             <Link className="col-md-2 list-group-item" to="/Productos">TODOS LOS PRODUCTOS</Link>
-                            <Link className="col-md-2 list-group-item" to="/Verde">MADERA VERDE DIMENSIONADA</Link> 
-                            <Link className="col-md-2 list-group-item" to="/Seca">MADERA SECA DIMENSIONADA</Link>
-                            <Link className="col-md-2 list-group-item" to="/Impregnada">MADERA IMPREGNADA</Link>
-                            <Link className="col-md-2 list-group-item" to="/Polines">POLINES</Link>
-                            <Link className="col-md-2 list-group-item" to="/SubProductos">SUBPRODUCTOS</Link>
+                            <Link className="col-md-2 list-group-item" to="/Productos/Verde">MADERA VERDE DIMENSIONADA</Link> 
+                            <Link className="col-md-2 list-group-item" to="/Productos/Seca">MADERA SECA DIMENSIONADA</Link>
+                            <Link className="col-md-2 list-group-item" to="/Productos/Impregnada">MADERA IMPREGNADA</Link>
+                            <Link className="col-md-2 list-group-item" to="/Productos/Polines">POLINES</Link>
+                            <Link className="col-md-2 list-group-item" to="/Productos/SubProductos">SUBPRODUCTOS</Link>
                             </div>
                     </div>
                     <div className="col-md-12">
                     <Switch>
                            <Route path='/Productos' exact component={CatalogoApi}></Route>
-                           <Route path='/Verde' exact component={MaderasVerdeApi}></Route>
-                           <Route path='/Seca' exact component={MaderasSecaApi}></Route>
-                           <Route path='/Impregnada' exact component={MaderasImpregnadaApi}></Route>
-                           <Route path='/Polines' exact component={PollinesApi}></Route>
-                           <Route path='/SubProductos' exact component={CortezaApi}></Route>
+                           <Route path='/Productos/Verde' exact component={MaderasVerdeApi}></Route>
+                           <Route path='/Productos/Seca' exact component={MaderasSecaApi}></Route>
+                           <Route path='/Productos/Impregnada' exact component={MaderasImpregnadaApi}></Route>
+                           <Route path='/Productos/Polines' exact component={PollinesApi}></Route>
+                           <Route path='/Productos/SubProductos' exact component={CortezaApi}></Route>
                     </Switch> 
                     </div>      
                  </div>
